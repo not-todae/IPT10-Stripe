@@ -1,0 +1,17 @@
+{
+    "name": "user/stripe",
+    "autoload": {
+        "psr-4": {
+            "User\\Stripe\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "not-todae",
+            "email": "echon.davidaaron@auf.edu.ph"
+        }
+    ],
+    "require": {
+        "stripe/stripe-php": "^9.5"
+    }
+}
